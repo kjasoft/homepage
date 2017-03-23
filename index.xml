@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shekhar Gulati Book Reviews </title>
-    <link>http://example.org/index.xml</link>
+    <link>https://kjasoft.github.io/homepage/index.xml</link>
     <language>en-us</language>
     <author>Shekhar Gulati</author>
     <rights>(C) 2017</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Disqus</title>
-          <link>http://example.org/post/another2/</link>
+          <link>https://kjasoft.github.io/homepage/post/another2/</link>
           <pubDate>Thu, 23 Mar 2017 23:42:26 EET</pubDate>
           <author>Shekhar Gulati</author>
-          <guid>http://example.org/post/another2/</guid>
+          <guid>https://kjasoft.github.io/homepage/post/another2/</guid>
           <description>&lt;p&gt;Disqus allows you to integrate comments in your static blog. To enable Disqus, you just have to set disqusShortname in the config.toml as shown below.&lt;/p&gt;
 </description>
         </item>
@@ -24,10 +24,10 @@
       
         <item>
           <title>another1</title>
-          <link>http://example.org/post/another1/</link>
+          <link>https://kjasoft.github.io/homepage/post/another1/</link>
           <pubDate>Thu, 23 Mar 2017 23:42:23 EET</pubDate>
           <author>Shekhar Gulati</author>
-          <guid>http://example.org/post/another1/</guid>
+          <guid>https://kjasoft.github.io/homepage/post/another1/</guid>
           <description></description>
         </item>
       
@@ -35,10 +35,10 @@
       
         <item>
           <title>another</title>
-          <link>http://example.org/post/another/</link>
+          <link>https://kjasoft.github.io/homepage/post/another/</link>
           <pubDate>Thu, 23 Mar 2017 23:41:29 EET</pubDate>
           <author>Shekhar Gulati</author>
-          <guid>http://example.org/post/another/</guid>
+          <guid>https://kjasoft.github.io/homepage/post/another/</guid>
           <description>&lt;p&gt;So far all the posts that we have written are in draft status. To make a draft public, you can either run a command or manually change the draft status in the post to false.&lt;/p&gt;
 </description>
         </item>
@@ -47,10 +47,10 @@
       
         <item>
           <title>Good to Great Book Review</title>
-          <link>http://example.org/post/good-to-great/</link>
+          <link>https://kjasoft.github.io/homepage/post/good-to-great/</link>
           <pubDate>Sun, 14 Feb 2016 16:11:58 &#43;0530</pubDate>
           <author>Shekhar Gulati</author>
-          <guid>http://example.org/post/good-to-great/</guid>
+          <guid>https://kjasoft.github.io/homepage/post/good-to-great/</guid>
           <description>&lt;p&gt;I read &lt;strong&gt;Good to Great in January 2016&lt;/strong&gt;. An awesome read sharing detailed analysis on how good companies became great.&lt;/p&gt;
 </description>
         </item>
