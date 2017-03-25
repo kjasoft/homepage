@@ -45,12 +45,13 @@
           
           <div class="col-sm-4">
             <article class="li">
-  <a href="https://kjasoft.github.io/homepage/post/another2/" class="clearfix">
-    <div class="image" style="background-image: url(https://kjasoft.github.io/homepage/images/default.jpg);"></div>
+  <a href="https://kjasoft.github.io/homepage/post/hugo-capabilities/" class="clearfix">
+    <div class="image" style="background-image: url(https://kjasoft.github.io/homepage/images/pexels-photo-132778.jpeg);"></div>
     <div class="detail">
-      <time>Thu, Mar 23, 2017</time>
-      <h2 class="title">Disqus</h2>
-      <div class="summary">Disqus allows you to integrate comments in your static blog. To enable Disqus, you just have to set disqusShortname in the config.toml as shown below.</div>
+      <time>Sun, Mar 26, 2017</time>
+      <h2 class="title">Checking hugo capabilities</h2>
+      <div class="summary">Markdown-style highlight is good
+&lt;section id=&quot;main&quot;&gt; &lt;div&gt; &lt;h1 id=&quot;title&quot;&gt;{{ .Title }}&lt;/h1&gt; {{ range .Data.Pages }} {{ .Render &quot;summary&quot;}} {{ end }} &lt;/div&gt; &lt;/section&gt;  function test() { var a = 2; console.log(a+2); }  Shortcode highlight is terrible and unreadable &lt;section id=&quot;main&quot;&gt; &lt;div&gt; &lt;h1 id=&quot;title&quot;&gt;{{ .Title }}&lt;/h1&gt; {{ range .Data.Pages }} {{ .Render &quot;summary&quot;}} {{ end }} &lt;/div&gt; &lt;/section&gt;  1 var a string 2 var b string 3 var c string 4 var d string  </div>
     </div>
   </a>
 </article>
@@ -59,12 +60,14 @@
           
           <div class="col-sm-4">
             <article class="li">
-  <a href="https://kjasoft.github.io/homepage/post/another1/" class="clearfix">
-    <div class="image" style="background-image: url(https://kjasoft.github.io/homepage/images/default.jpg);"></div>
+  <a href="https://kjasoft.github.io/homepage/post/react-in-page/" class="clearfix">
+    <div class="image" style="background-image: url(https://kjasoft.github.io/homepage/images/pexels-photo-340932.jpeg);"></div>
     <div class="detail">
       <time>Thu, Mar 23, 2017</time>
-      <h2 class="title">another1</h2>
-      <div class="summary"></div>
+      <h2 class="title">React app inside page</h2>
+      <div class="summary">This approach React styles and scripts are loaded right in this page.
+Problems Image is not working, because react app was built with different base URL.
+The app</div>
     </div>
   </a>
 </article>
@@ -73,12 +76,26 @@
           
           <div class="col-sm-4">
             <article class="li">
-  <a href="https://kjasoft.github.io/homepage/post/another/" class="clearfix">
-    <div class="image" style="background-image: url(https://kjasoft.github.io/homepage/images/default.jpg);"></div>
+  <a href="https://kjasoft.github.io/homepage/post/react-shortcode/" class="clearfix">
+    <div class="image" style="background-image: url(https://kjasoft.github.io/homepage/images/pexels-photo-340901.jpeg);"></div>
     <div class="detail">
       <time>Thu, Mar 23, 2017</time>
-      <h2 class="title">another</h2>
-      <div class="summary">So far all the posts that we have written are in draft status. To make a draft public, you can either run a command or manually change the draft status in the post to false.</div>
+      <h2 class="title">Embed react app with shortcode</h2>
+      <div class="summary">This page contains shortcode with react app html, static files still reside in separate folder.</div>
+    </div>
+  </a>
+</article>
+
+          </div>
+          
+          <div class="col-sm-4">
+            <article class="li">
+  <a href="https://kjasoft.github.io/homepage/post/react-separate-page/" class="clearfix">
+    <div class="image" style="background-image: url(https://kjasoft.github.io/homepage/images/pexels-photo-245618.jpeg);"></div>
+    <div class="detail">
+      <time>Thu, Mar 23, 2017</time>
+      <h2 class="title">React separate page</h2>
+      <div class="summary">This time whole react app is placed in static folder: tic-tac-toe. And also app can be loaded with iframe:</div>
     </div>
   </a>
 </article>
@@ -119,36 +136,51 @@
     <div class="content">
       
       <div class="sm"><article class="li">
-  <a href="https://kjasoft.github.io/homepage/post/another2/" class="clearfix">
-    <div class="image" style="background-image: url(https://kjasoft.github.io/homepage/images/default.jpg);"></div>
+  <a href="https://kjasoft.github.io/homepage/post/hugo-capabilities/" class="clearfix">
+    <div class="image" style="background-image: url(https://kjasoft.github.io/homepage/images/pexels-photo-132778.jpeg);"></div>
     <div class="detail">
-      <time>Thu, Mar 23, 2017</time>
-      <h2 class="title">Disqus</h2>
-      <div class="summary">Disqus allows you to integrate comments in your static blog. To enable Disqus, you just have to set disqusShortname in the config.toml as shown below.</div>
+      <time>Sun, Mar 26, 2017</time>
+      <h2 class="title">Checking hugo capabilities</h2>
+      <div class="summary">Markdown-style highlight is good
+&lt;section id=&quot;main&quot;&gt; &lt;div&gt; &lt;h1 id=&quot;title&quot;&gt;{{ .Title }}&lt;/h1&gt; {{ range .Data.Pages }} {{ .Render &quot;summary&quot;}} {{ end }} &lt;/div&gt; &lt;/section&gt;  function test() { var a = 2; console.log(a+2); }  Shortcode highlight is terrible and unreadable &lt;section id=&quot;main&quot;&gt; &lt;div&gt; &lt;h1 id=&quot;title&quot;&gt;{{ .Title }}&lt;/h1&gt; {{ range .Data.Pages }} {{ .Render &quot;summary&quot;}} {{ end }} &lt;/div&gt; &lt;/section&gt;  1 var a string 2 var b string 3 var c string 4 var d string  </div>
     </div>
   </a>
 </article>
 </div>
       
       <div class="sm"><article class="li">
-  <a href="https://kjasoft.github.io/homepage/post/another1/" class="clearfix">
-    <div class="image" style="background-image: url(https://kjasoft.github.io/homepage/images/default.jpg);"></div>
+  <a href="https://kjasoft.github.io/homepage/post/react-in-page/" class="clearfix">
+    <div class="image" style="background-image: url(https://kjasoft.github.io/homepage/images/pexels-photo-340932.jpeg);"></div>
     <div class="detail">
       <time>Thu, Mar 23, 2017</time>
-      <h2 class="title">another1</h2>
-      <div class="summary"></div>
+      <h2 class="title">React app inside page</h2>
+      <div class="summary">This approach React styles and scripts are loaded right in this page.
+Problems Image is not working, because react app was built with different base URL.
+The app</div>
     </div>
   </a>
 </article>
 </div>
       
       <div class="sm"><article class="li">
-  <a href="https://kjasoft.github.io/homepage/post/another/" class="clearfix">
-    <div class="image" style="background-image: url(https://kjasoft.github.io/homepage/images/default.jpg);"></div>
+  <a href="https://kjasoft.github.io/homepage/post/react-shortcode/" class="clearfix">
+    <div class="image" style="background-image: url(https://kjasoft.github.io/homepage/images/pexels-photo-340901.jpeg);"></div>
     <div class="detail">
       <time>Thu, Mar 23, 2017</time>
-      <h2 class="title">another</h2>
-      <div class="summary">So far all the posts that we have written are in draft status. To make a draft public, you can either run a command or manually change the draft status in the post to false.</div>
+      <h2 class="title">Embed react app with shortcode</h2>
+      <div class="summary">This page contains shortcode with react app html, static files still reside in separate folder.</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="https://kjasoft.github.io/homepage/post/react-separate-page/" class="clearfix">
+    <div class="image" style="background-image: url(https://kjasoft.github.io/homepage/images/pexels-photo-245618.jpeg);"></div>
+    <div class="detail">
+      <time>Thu, Mar 23, 2017</time>
+      <h2 class="title">React separate page</h2>
+      <div class="summary">This time whole react app is placed in static folder: tic-tac-toe. And also app can be loaded with iframe:</div>
     </div>
   </a>
 </article>
@@ -166,47 +198,20 @@
 </article>
 </div>
       
-      <div class="sm"><article class="li">
-  <a href="https://kjasoft.github.io/homepage/" class="clearfix">
-    <div class="image" style="background-image: url(https://kjasoft.github.io/homepage/images/default.jpg);"></div>
-    <div class="detail">
-      <time>Thu, Mar 23, 2017</time>
-      <h2 class="title">KJA hugo demo</h2>
-      <div class="summary"></div>
-    </div>
-  </a>
-</article>
-</div>
-      
-      <div class="sm"><article class="li">
-  <a href="https://kjasoft.github.io/homepage/post/" class="clearfix">
-    <div class="image" style="background-image: url(https://kjasoft.github.io/homepage/images/default.jpg);"></div>
-    <div class="detail">
-      <time>Thu, Mar 23, 2017</time>
-      <h2 class="title">Posts</h2>
-      <div class="summary"></div>
-    </div>
-  </a>
-</article>
-</div>
-      
     </div>
   </div>
 
   
+  
+  
+  
   <div class="section taxonomies">
-    <header><div class="title">category</div></header>
+    <header><div class="title">tags</div></header>
     <div class="content">
-      
+      <a href="https://kjasoft.github.io/homepage/tags/react">react</a><a href="https://kjasoft.github.io/homepage/tags/demo">demo</a>
     </div>
   </div>
   
-  <div class="section taxonomies">
-    <header><div class="title">tag</div></header>
-    <div class="content">
-      
-    </div>
-  </div>
   
 
 </aside>
@@ -214,14 +219,12 @@
     </div>
 
   </div>
-  
+      </div>
 
-    </div>
-
-	<footer class="site">
-	  <p>&copy; 2017 KJA hugo demo</p>
-	  <p>Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>,</p>
-	</footer>
+    <footer class="site">
+      <p>&copy; 2017 KJA hugo demo</p>
+      <p>Powered by <a href="http://gohugo.io" target="_blank" rel="nofollow">Hugo</a>, Theme <a href="https://github.com/dim0627/hugo_theme_robust" target="_blank" rel="nofollow">robust</a> designed by <a href="http://yet.unresolved.xyz" target="_blank" rel="nofollow">Daisuke Tsuji</a></p>
+    </footer>
 
     <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>

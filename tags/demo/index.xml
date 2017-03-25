@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>KJA hugo demo </title>
-    <link>https://kjasoft.github.io/homepage/post/index.xml</link>
+    <link>https://kjasoft.github.io/homepage/tags/demo/index.xml</link>
     <language>en-us</language>
     <author>KJA</author>
     <rights>(C) 2017</rights>
-    <updated>2017-03-26 16:11:58 &#43;0530 &#43;0530</updated>
+    <updated>0001-01-01 00:00:00 &#43;0000 UTC</updated>
 
     
       
@@ -52,59 +52,6 @@
 &lt;/span&gt;&lt;span style=&#34;background-color: #f0f0f0; padding: 0 5px 0 5px&#34;&gt;4 &lt;/span&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;d&lt;/span&gt; &lt;span style=&#34;color: #66d9ef&#34;&gt;string&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>React app inside page</title>
-          <link>https://kjasoft.github.io/homepage/post/react-in-page/</link>
-          <pubDate>Thu, 23 Mar 2017 23:42:26 EET</pubDate>
-          <author>KJA</author>
-          <guid>https://kjasoft.github.io/homepage/post/react-in-page/</guid>
-          <description>
-
-&lt;h3 id=&#34;this-approach&#34;&gt;This approach&lt;/h3&gt;
-
-&lt;p&gt;React styles and scripts are loaded right in this page.&lt;/p&gt;
-
-&lt;h3 id=&#34;problems&#34;&gt;Problems&lt;/h3&gt;
-
-&lt;p&gt;Image is not working, because react app was built with different base URL.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-app&#34;&gt;The app&lt;/h3&gt;
-
-&lt;p&gt;&lt;link href=&#34;https://kjasoft.github.io/homepage/homepage/static/css/main.53673926.css&#34; rel=&#34;stylesheet&#34;&gt;
-&lt;div id=&#34;root&#34;&gt;&lt;/div&gt;
-&lt;script type=&#34;text/javascript&#34; src=&#34;https://kjasoft.github.io/homepage/homepage/static/js/main.67200807.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>Embed react app with shortcode</title>
-          <link>https://kjasoft.github.io/homepage/post/react-shortcode/</link>
-          <pubDate>Thu, 23 Mar 2017 23:42:23 EET</pubDate>
-          <author>KJA</author>
-          <guid>https://kjasoft.github.io/homepage/post/react-shortcode/</guid>
-          <description>&lt;p&gt;This page contains shortcode with react app html, static files still reside in separate folder.&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>React separate page</title>
-          <link>https://kjasoft.github.io/homepage/post/react-separate-page/</link>
-          <pubDate>Thu, 23 Mar 2017 23:41:29 EET</pubDate>
-          <author>KJA</author>
-          <guid>https://kjasoft.github.io/homepage/post/react-separate-page/</guid>
-          <description>&lt;p&gt;This time whole react app is placed in static folder:
-&lt;a href=&#34;https://kjasoft.github.io/homepage/homepage/react/&#34;&gt;tic-tac-toe&lt;/a&gt;.
-And also app can be loaded with iframe:
-&lt;iframe src=&#34;https://kjasoft.github.io/homepage/homepage/react/&#34; style=&#34;width: 600px; height: 600px&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
 </description>
         </item>
       

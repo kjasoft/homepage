@@ -4,42 +4,107 @@
     <title>KJA hugo demo </title>
     <link>https://kjasoft.github.io/homepage/index.xml</link>
     <language>en-us</language>
-    <author>Shekhar Gulati</author>
+    <author>KJA</author>
     <rights>(C) 2017</rights>
-    <updated>2017-03-23 23:42:26 &#43;0200 EET</updated>
+    <updated>2017-03-26 16:11:58 &#43;0530 &#43;0530</updated>
 
     
       
         <item>
-          <title>Disqus</title>
-          <link>https://kjasoft.github.io/homepage/post/another2/</link>
-          <pubDate>Thu, 23 Mar 2017 23:42:26 EET</pubDate>
-          <author>Shekhar Gulati</author>
-          <guid>https://kjasoft.github.io/homepage/post/another2/</guid>
-          <description>&lt;p&gt;Disqus allows you to integrate comments in your static blog. To enable Disqus, you just have to set disqusShortname in the config.toml as shown below.&lt;/p&gt;
+          <title>Checking hugo capabilities</title>
+          <link>https://kjasoft.github.io/homepage/post/hugo-capabilities/</link>
+          <pubDate>Sun, 26 Mar 2017 16:11:58 &#43;0530</pubDate>
+          <author>KJA</author>
+          <guid>https://kjasoft.github.io/homepage/post/hugo-capabilities/</guid>
+          <description>&lt;p&gt;Markdown-style highlight is good&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;section id=&amp;quot;main&amp;quot;&amp;gt;
+  &amp;lt;div&amp;gt;
+    &amp;lt;h1 id=&amp;quot;title&amp;quot;&amp;gt;{{ .Title }}&amp;lt;/h1&amp;gt;
+    {{ range .Data.Pages }}
+      {{ .Render &amp;quot;summary&amp;quot;}}
+    {{ end }}
+  &amp;lt;/div&amp;gt;
+&amp;lt;/section&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;function test() {
+    var a = 2;
+    console.log(a+2);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Shortcode highlight is terrible and unreadable
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;section&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;id&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;main&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;h1&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;id&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;title&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;gt;&lt;/span&gt;{{ .Title }}&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;h1&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;gt;&lt;/span&gt;
+    {{ range .Data.Pages }}
+      {{ .Render &amp;quot;summary&amp;quot;}}
+    {{ end }}
+  &lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;section&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;background-color: #f0f0f0; padding: 0 5px 0 5px&#34;&gt;1 &lt;/span&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color: #66d9ef&#34;&gt;string&lt;/span&gt;
+&lt;span style=&#34;background-color: #f0f0f0; padding: 0 5px 0 5px&#34;&gt;2 &lt;/span&gt;&lt;span style=&#34;background-color: #49483e&#34;&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;b&lt;/span&gt; &lt;span style=&#34;color: #66d9ef&#34;&gt;string&lt;/span&gt;
+&lt;/span&gt;&lt;span style=&#34;background-color: #f0f0f0; padding: 0 5px 0 5px&#34;&gt;3 &lt;/span&gt;&lt;span style=&#34;background-color: #49483e&#34;&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;c&lt;/span&gt; &lt;span style=&#34;color: #66d9ef&#34;&gt;string&lt;/span&gt;
+&lt;/span&gt;&lt;span style=&#34;background-color: #f0f0f0; padding: 0 5px 0 5px&#34;&gt;4 &lt;/span&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;d&lt;/span&gt; &lt;span style=&#34;color: #66d9ef&#34;&gt;string&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
 </description>
         </item>
       
     
       
         <item>
-          <title>another1</title>
-          <link>https://kjasoft.github.io/homepage/post/another1/</link>
-          <pubDate>Thu, 23 Mar 2017 23:42:23 EET</pubDate>
-          <author>Shekhar Gulati</author>
-          <guid>https://kjasoft.github.io/homepage/post/another1/</guid>
-          <description></description>
+          <title>React app inside page</title>
+          <link>https://kjasoft.github.io/homepage/post/react-in-page/</link>
+          <pubDate>Thu, 23 Mar 2017 23:42:26 EET</pubDate>
+          <author>KJA</author>
+          <guid>https://kjasoft.github.io/homepage/post/react-in-page/</guid>
+          <description>
+
+&lt;h3 id=&#34;this-approach&#34;&gt;This approach&lt;/h3&gt;
+
+&lt;p&gt;React styles and scripts are loaded right in this page.&lt;/p&gt;
+
+&lt;h3 id=&#34;problems&#34;&gt;Problems&lt;/h3&gt;
+
+&lt;p&gt;Image is not working, because react app was built with different base URL.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-app&#34;&gt;The app&lt;/h3&gt;
+
+&lt;p&gt;&lt;link href=&#34;https://kjasoft.github.io/homepage/homepage/static/css/main.53673926.css&#34; rel=&#34;stylesheet&#34;&gt;
+&lt;div id=&#34;root&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://kjasoft.github.io/homepage/homepage/static/js/main.67200807.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
         </item>
       
     
       
         <item>
-          <title>another</title>
-          <link>https://kjasoft.github.io/homepage/post/another/</link>
+          <title>Embed react app with shortcode</title>
+          <link>https://kjasoft.github.io/homepage/post/react-shortcode/</link>
+          <pubDate>Thu, 23 Mar 2017 23:42:23 EET</pubDate>
+          <author>KJA</author>
+          <guid>https://kjasoft.github.io/homepage/post/react-shortcode/</guid>
+          <description>&lt;p&gt;This page contains shortcode with react app html, static files still reside in separate folder.&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>React separate page</title>
+          <link>https://kjasoft.github.io/homepage/post/react-separate-page/</link>
           <pubDate>Thu, 23 Mar 2017 23:41:29 EET</pubDate>
-          <author>Shekhar Gulati</author>
-          <guid>https://kjasoft.github.io/homepage/post/another/</guid>
-          <description>&lt;p&gt;So far all the posts that we have written are in draft status. To make a draft public, you can either run a command or manually change the draft status in the post to false.&lt;/p&gt;
+          <author>KJA</author>
+          <guid>https://kjasoft.github.io/homepage/post/react-separate-page/</guid>
+          <description>&lt;p&gt;This time whole react app is placed in static folder:
+&lt;a href=&#34;https://kjasoft.github.io/homepage/homepage/react/&#34;&gt;tic-tac-toe&lt;/a&gt;.
+And also app can be loaded with iframe:
+&lt;iframe src=&#34;https://kjasoft.github.io/homepage/homepage/react/&#34; style=&#34;width: 600px; height: 600px&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -49,7 +114,7 @@
           <title>Good to Great Book Review</title>
           <link>https://kjasoft.github.io/homepage/post/good-to-great/</link>
           <pubDate>Sun, 14 Feb 2016 16:11:58 &#43;0530</pubDate>
-          <author>Shekhar Gulati</author>
+          <author>KJA</author>
           <guid>https://kjasoft.github.io/homepage/post/good-to-great/</guid>
           <description>&lt;p&gt;I read &lt;strong&gt;Good to Great in January 2016&lt;/strong&gt;. An awesome read sharing detailed analysis on how good companies became great.&lt;/p&gt;
 </description>

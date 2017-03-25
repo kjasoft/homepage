@@ -1,0 +1,200 @@
+<div class="single">
+  <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.19" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans|Marcellus+SC'>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+    <link rel="stylesheet" href="https://kjasoft.github.io/homepage/css/styles.css">
+    <link rel="stylesheet" href="https://kjasoft.github.io/homepage/css/custom.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://kjasoft.github.io/homepage//index.xml">
+
+    
+    <title>Checking hugo capabilities - KJA hugo demo</title>
+    <meta property='og:title' content="Checking hugo capabilities - KJA hugo demo">
+    <meta property="og:type" content="article">
+    
+
+    <meta property="og:url" content="https://kjasoft.github.io/homepage/post/hugo-capabilities/">
+    
+    <meta property="og:image" content="https://kjasoft.github.io/homepage/images/pexels-photo-132778.jpeg">
+
+  </head>
+
+  <body>
+
+    <header class="site">
+      <div class="title"><a href="https://kjasoft.github.io/homepage/">KJA hugo demo</a></div>
+    </header>
+
+    <div class="container site">
+
+
+
+  <div class="row">
+    <div class="col-sm-9">
+
+      <article class="single" itemscope="itemscope" itemtype="http://schema.org/Article">
+
+        <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="https://kjasoft.github.io/homepage/"/>
+        <meta itemprop="dateModified" content="2017-03-26T16:11:58&#43;05:30">
+        <meta itemprop="headline" content="Checking hugo capabilities">
+        <meta itemprop="description" content="Markdown-style highlight is good
+&lt;section id=&quot;main&quot;&gt; &lt;div&gt; &lt;h1 id=&quot;title&quot;&gt;{{ .Title }}&lt;/h1&gt; {{ range .Data.Pages }} {{ .Render &quot;summary&quot;}} {{ end }} &lt;/div&gt; &lt;/section&gt;  function test() { var a = 2; console.log(a&#43;2); }  Shortcode highlight is terrible and unreadable &lt;section id=&quot;main&quot;&gt; &lt;div&gt; &lt;h1 id=&quot;title&quot;&gt;{{ .Title }}&lt;/h1&gt; {{ range .Data.Pages }} {{ .Render &quot;summary&quot;}} {{ end }} &lt;/div&gt; &lt;/section&gt;  1 var a string 2 var b string 3 var c string 4 var d string  ">
+        <meta itemprop="url" content="https://kjasoft.github.io/homepage/post/hugo-capabilities/">
+        <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+          <meta itemprop="url" content="https://kjasoft.github.io/homepage/images/pexels-photo-132778.jpeg" />
+          <meta itemprop="width" content="800">
+          <meta itemprop="height" content="800">
+        </div>
+        <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+          <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="https://kjasoft.github.io/homepage/images/logo.jpg">
+            <meta itemprop="width" content="100">
+            <meta itemprop="height" content="100">
+          </div>
+          <meta itemprop="name" content="KJA hugo demo">
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="KJA">
+        </div>
+
+        <div class="image" style="background-image: url(https://kjasoft.github.io/homepage/images/pexels-photo-132778.jpeg);"></div>
+
+        <header class="article-header">
+          <time itemprop="datePublished" pubdate="pubdate" datetime="2017-03-26T16:11:58&#43;05:30">Sun, Mar 26, 2017</time>
+          <h1 class="article-title">Checking hugo capabilities</h1>
+        </header>
+
+        <div class="article-body" itemprop="articleBody">
+          <p>Markdown-style highlight is good</p>
+
+<pre><code class="language-html">&lt;section id=&quot;main&quot;&gt;
+  &lt;div&gt;
+    &lt;h1 id=&quot;title&quot;&gt;{{ .Title }}&lt;/h1&gt;
+    {{ range .Data.Pages }}
+      {{ .Render &quot;summary&quot;}}
+    {{ end }}
+  &lt;/div&gt;
+&lt;/section&gt;
+</code></pre>
+
+<pre><code class="language-js">function test() {
+    var a = 2;
+    console.log(a+2);
+}
+</code></pre>
+
+<p>Shortcode highlight is terrible and unreadable
+<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span><span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">section</span> <span style="color: #a6e22e">id</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;main&quot;</span><span style="color: #f8f8f2">&gt;</span>
+  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">h1</span> <span style="color: #a6e22e">id</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;title&quot;</span><span style="color: #f8f8f2">&gt;</span>{{ .Title }}<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">h1</span><span style="color: #f8f8f2">&gt;</span>
+    {{ range .Data.Pages }}
+      {{ .Render &quot;summary&quot;}}
+    {{ end }}
+  <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">section</span><span style="color: #f8f8f2">&gt;</span>
+</pre></div>
+</p>
+
+<p><div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span><span style="background-color: #f0f0f0; padding: 0 5px 0 5px">1 </span><span style="color: #66d9ef">var</span> <span style="color: #a6e22e">a</span> <span style="color: #66d9ef">string</span>
+<span style="background-color: #f0f0f0; padding: 0 5px 0 5px">2 </span><span style="background-color: #49483e"><span style="color: #66d9ef">var</span> <span style="color: #a6e22e">b</span> <span style="color: #66d9ef">string</span>
+</span><span style="background-color: #f0f0f0; padding: 0 5px 0 5px">3 </span><span style="background-color: #49483e"><span style="color: #66d9ef">var</span> <span style="color: #a6e22e">c</span> <span style="color: #66d9ef">string</span>
+</span><span style="background-color: #f0f0f0; padding: 0 5px 0 5px">4 </span><span style="color: #66d9ef">var</span> <span style="color: #a6e22e">d</span> <span style="color: #66d9ef">string</span>
+</pre></div>
+</p>
+
+        </div>
+
+
+        <aside>
+          <div class="section"><a href="https://kjasoft.github.io/homepage/tags/demo" class="tag">demo</a> </div>
+
+          <div class="section share">
+            <a href="http://www.facebook.com/sharer.php?src=bm&u=https%3a%2f%2fkjasoft.github.io%2fhomepage%2fpost%2fhugo-capabilities%2f&t=Checking%20hugo%20capabilities" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-facebook"></i></a>
+            <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fkjasoft.github.io%2fhomepage%2fpost%2fhugo-capabilities%2f&text=Checking%20hugo%20capabilities&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-twitter"></i></a>
+            <a href="https://plus.google.com/share?url=https%3a%2f%2fkjasoft.github.io%2fhomepage%2fpost%2fhugo-capabilities%2f" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-google-plus"></i></a>
+            <a href="http://getpocket.com/edit?url=https%3a%2f%2fkjasoft.github.io%2fhomepage%2fpost%2fhugo-capabilities%2f&title=Checking%20hugo%20capabilities" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-get-pocket"></i></a>
+          </div>
+
+          
+          
+          <div id="disqus_thread"></div>
+          <script type="text/javascript">
+(function() {
+  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+  var disqus_shortname = 'Yohoho';
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+          <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+          
+          
+        </aside>
+
+      </article>
+    </div>
+
+    <div class="col-sm-3">
+      <aside class="site">
+
+  
+  <div class="section">
+    <header><div class="title">TableOfContents</div></header>
+    <div class="list-default"></div>
+  </div>
+  
+
+  
+
+  <div class="section">
+    <header><div class="title">LatestPosts</div></header>
+    <div class="content">
+      
+    </div>
+  </div>
+
+  
+  
+  
+  
+  <div class="section taxonomies">
+    <header><div class="title">tags</div></header>
+    <div class="content">
+      <a href="https://kjasoft.github.io/homepage/tags/react">react</a><a href="https://kjasoft.github.io/homepage/tags/demo">demo</a>
+    </div>
+  </div>
+  
+  
+
+</aside>
+
+    </div>
+
+  </div>
+
+      </div>
+
+    <footer class="site">
+      <p>&copy; 2017 KJA hugo demo</p>
+      <p>Powered by <a href="http://gohugo.io" target="_blank" rel="nofollow">Hugo</a>, Theme <a href="https://github.com/dim0627/hugo_theme_robust" target="_blank" rel="nofollow">robust</a> designed by <a href="http://yet.unresolved.xyz" target="_blank" rel="nofollow">Daisuke Tsuji</a></p>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+
+  </body>
+</html>
+
+</div>

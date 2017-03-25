@@ -2,17 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://kjasoft.github.io/homepage/post/another2/</loc>
+    <loc>https://kjasoft.github.io/homepage/post/hugo-capabilities/</loc>
+    <lastmod>2017-03-26T16:11:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjasoft.github.io/homepage/post/react-in-page/</loc>
     <lastmod>2017-03-23T23:42:26+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kjasoft.github.io/homepage/post/another1/</loc>
+    <loc>https://kjasoft.github.io/homepage/post/react-shortcode/</loc>
     <lastmod>2017-03-23T23:42:23+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kjasoft.github.io/homepage/post/another/</loc>
+    <loc>https://kjasoft.github.io/homepage/post/react-separate-page/</loc>
     <lastmod>2017-03-23T23:41:29+02:00</lastmod>
   </url>
   
@@ -22,14 +27,31 @@
   </url>
   
   <url>
+    <loc>https://kjasoft.github.io/homepage/tags/demo/</loc>
+    <lastmod>2017-03-26T16:11:58+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kjasoft.github.io/homepage/</loc>
-    <lastmod>2017-03-23T23:42:26+02:00</lastmod>
+    <lastmod>2017-03-26T16:11:58+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kjasoft.github.io/homepage/post/</loc>
+    <lastmod>2017-03-26T16:11:58+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kjasoft.github.io/homepage/tags/react/</loc>
     <lastmod>2017-03-23T23:42:26+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kjasoft.github.io/homepage/tags/</loc>
     <priority>0</priority>
   </url>
   
